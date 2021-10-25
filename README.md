@@ -19,3 +19,9 @@ Infos   | Normal people | Patients
 ---|---|---
 Forein bodies | Less likely to have | Higher chances to have EKG leads, endo, etc. to monitor their vital signs
 Image Quality | Most likely in a stand position with bucky (Better image quality) | Most likely in a supine position without bucky (Poor image quality)
+
+<p>About Data</p>
+<ul>
+   <li> Be sure you're in RGB mode instead of other format (BGR, HSL, etc.) </li>
+   <li> you might need to convert to gray scale at the first place </li>
+</ul>
