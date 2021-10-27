@@ -34,6 +34,10 @@ Image Quality | Most likely in a stand position with bucky (Better image quality
    <li>Check the distribution ?</li>
 </ul>
 
+<p> Glimpse of the data </p>
+<img src="./figs/data_Vis.png" alt="Oops something wrong" width="600"/> 
+<img src="./figs/data_Vis2.png" alt="Oops something wrong" width="600"/> 
+
 ### Model and training 
 <p>About model</p>
 <ul>
