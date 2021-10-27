@@ -11,7 +11,8 @@ pjt_configs = {
         "target_size" : (256, 256)
     }, 
 
-    "traininig": {
+    "training": {
+        "shape" : (256, 256, 1),
         "_batchSize" : 32,
         "_epochs" : 300,
         "lr" : 1e-3,
