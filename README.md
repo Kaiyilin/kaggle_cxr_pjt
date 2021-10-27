@@ -20,11 +20,11 @@ Infos   | Normal people | Patients
 Forein bodies | Less likely to have | Higher chances to have EKG leads, endo, etc. to monitor their vital signs
 Image Quality | Most likely in a stand position with bucky (Better image quality) | Most likely in a supine position without bucky (Poor image quality)
 
-<p>Summary Of the Data</p>
+<p>Summaries Of the Data</p>
 <ul>
-   <li> The image data contain numerous scenario in real world, it's realistic but messy<li>
+   <li> The image data contain numerous scenario in real world, it's realistic but messy</li>
    <li> Might need to convert to gray scale at the first place (better option)</li>
-   <li> Imbalance data for traing, the covid-19 data are extremely small:<li>
+   <li> Imbalance data for traing, the covid-19 data are extremely small:</li>
    <ul>
       <li>NORMAL: 1341</li>
       <li>TURBERCULOSIS: 650</li>
@@ -41,7 +41,7 @@ Image Quality | Most likely in a stand position with bucky (Better image quality
 ### Model and training 
 <p>About model</p>
 <ul>
-   <li> Preliminary with ResNet-50 with input_shape = (256, 256, 1)<li>
+   <li> Preliminary with ResNet-50 with input_shape = (256, 256, 1)</li>
    <li> Using SSL(self-supervided learning) might be a better option </li>
    <li> Evaluate and Test with val and test dataset</li>
    <ul>
