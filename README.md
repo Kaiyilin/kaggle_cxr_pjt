@@ -56,3 +56,21 @@ Image Quality | Most likely in a stand position with bucky (Better image quality
       <li>test_COVID19: 106</li>
    </ul>
 </ul>
+
+### Results
+<p> Trained the mode using supervised training </p>
+
+<p>Categorical Crossentropy </p>
+<img src="./figs/learning_curve/epoch_loss.svg" alt="loss" width="600">
+
+<p>Categorical Accuracy </p>
+<img src="./figs/learning_curve/epoch_categorical_accuracy.svg" alt="accu" width="600">
+
+
+### TODO
+<ul>
+   <li> Rewrite the resnet model to model class </li>
+   <li> Finish SimCLR </li>
+   <li> LARS optimiser and NT-Xent </li>
+   <li> Set logs to record the training info </li>
+</ul> 
